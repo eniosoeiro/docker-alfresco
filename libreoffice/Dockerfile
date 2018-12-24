@@ -7,9 +7,10 @@ ENV LANG=C.UTF-8
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-ENV REPO=http://download.documentfoundation.org/libreoffice/stable/
-ENV LIBREOFFICE_VERSION=5.4
-ENV LIBREOFFICE_PATCH_VERSION=5.4.6
+# New Version and other server
+ENV REPO=http://ftp.unicamp.br/pub/libreoffice/stable
+ENV LIBREOFFICE_VERSION=6.0
+ENV LIBREOFFICE_PATCH_VERSION=6.0.3
 ENV LIBREOFFICE_RELEASE_VERSION=${LIBREOFFICE_PATCH_VERSION}.2
 ENV LIBREOFFICE_PATH="/opt/libreoffice${LIBREOFFICE_VERSION}"
 
